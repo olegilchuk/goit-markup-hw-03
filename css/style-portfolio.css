@@ -1,0 +1,167 @@
+
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --accent-color: #2196F3;
+    --text-color:#212121;
+    --title-color:#FFFFFF;
+
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--accent-color);
+}
+/* _______________header_______________ */
+
+
+.logo-word-top{
+    color: var(--text-color);
+}
+
+.header-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--text-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus{
+    color: var(--accent-color);
+}
+
+.nav-link-word{
+    color: var(--accent-color);
+}
+
+.header-contakt:hover,
+.header-contakt:focus{
+    color: var(--accent-color);
+}
+.nav-link-word{
+    color: var(--accent-color);
+}
+
+.header-contakt:hover,
+.header-contakt:focus{
+    color: var(--accent-color);
+}
+
+.header-contakt{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+/* _______________end header_______________ */
+
+/* _______________price_______________ */
+
+.price-button-list{
+    cursor: pointer;
+}
+
+.price-button-list:hover,
+.price-button-list:focus{
+    color:var(--title-color);
+    background-color: var(--accent-color);
+     
+}
+
+.price-button-list{
+    font-family: var(--main-font);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--text-color);
+    background-color:var(--title-color);
+}
+
+.price-img-list{
+    background: var(--title-color);
+    width: 370px;
+    height: 404px;
+}
+
+.price-list-header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.25;
+    letter-spacing: 0.06em;
+
+    color: var(--text-color);
+}
+
+.price-list-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+
+/* _______________end price_______________ */
+
+/* _______________footer_______________ */
+
+.footer{
+    background: #2F303A;
+}
+
+.logo-word-bottom{
+    color: var(--title-color);
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-list-map{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    
+    color: var(--title-color);
+}
+
+.address-list-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* _______________end footer_______________ */
