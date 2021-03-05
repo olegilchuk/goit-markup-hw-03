@@ -148,11 +148,15 @@ body {
 
 /* _______________HERO_______________ */
 
+.hero-section{
+    background: #2F303A;
+}
+
 .hero-section .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #2F303A;
+    
 }
 
 .hero-section-text{
@@ -202,7 +206,7 @@ body {
 .list-description{
     display: flex ;
     align-items: center;
-    margin: var(--section-mt-mb) var(--section-ml-mr) var(--section-mt-mb) var(--section-ml-mr);
+    padding: var(--section-mt-mb) var(--section-ml-mr) var(--section-mt-mb) var(--section-ml-mr);
 }
 
 .list-description-title:not(:last-child){
@@ -244,7 +248,7 @@ body {
 .uswork-list{
     display: flex ;
     align-items: center;
-    margin: 50px var(--section-ml-mr) var(--section-mt-mb) var(--section-ml-mr);
+    padding: 50px var(--section-ml-mr) var(--section-mt-mb) var(--section-ml-mr);
 
 }
 
@@ -256,8 +260,12 @@ body {
 
 /* _______________us team_______________ */
 
-.usteam .container {
+.usteam{
     background: var(--background-color);
+}
+
+.usteam .container {
+    
     padding: var(--section-mt-mb) var(--section-ml-mr) var(--section-mt-mb) 230px;
 
 }
@@ -316,7 +324,7 @@ body {
 
 /* _______________footer_______________ */
 
-.footer .container {
+.footer{
     background: #2F303A;
 }
 
