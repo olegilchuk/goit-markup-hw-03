@@ -5,9 +5,8 @@
     --text-color:#212121;
     --title-color:#FFFFFF;
     --background-color: #F5F4FA;
-    --section-mt-mb: 94px;
+    --section-pt-pb: 94px;
     --section-mr: 30px;
-    --section-ml-mr: 215px;
 }
 
 h1,
@@ -66,7 +65,7 @@ body {
   }
 
 .container{
-    width: 1630px;
+    width: 1230px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px; 
@@ -77,6 +76,10 @@ body {
 .header .container{
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
+    padding-left: 15px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .nav{
@@ -85,9 +88,6 @@ body {
 }
 
 .header .logo{
-    margin-left: 215px;
-    margin-top: 24px;
-    margin-bottom: 25px;
     margin-right: 93px;
 
 }
@@ -136,7 +136,6 @@ body {
 }
 
 .header-contakt{
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -150,6 +149,8 @@ body {
 
 .hero-section{
     background: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-section .container{
@@ -160,7 +161,6 @@ body {
 }
 
 .hero-section-text{
-    margin-top: 200px;
     width: 696px;
     left: 452px;
     top: 280px;
@@ -176,7 +176,7 @@ body {
 
 .hero-section-btn{
     margin-top: 40px;
-    margin-bottom: 200px;
+
     border: none;
     font-family: var(--main-font);
     font-weight: 700;
@@ -203,10 +203,13 @@ body {
 
 /* _______________description_______________ */
 
+.description{
+    padding: var(--section-pt-pb) 0 var(--section-pt-pb) 0;
+}
+
 .list-description{
     display: flex ;
     align-items: center;
-    padding: var(--section-mt-mb) var(--section-ml-mr) var(--section-mt-mb) var(--section-ml-mr);
 }
 
 .list-description-title:not(:last-child){
@@ -235,12 +238,17 @@ body {
 
 /* _______________us work_______________ */
 
+.uswork{
+    padding: 0 0 var(--section-pt-pb) 0;
+}
+
 .uswork-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 
     color: var(--text-color);
 }
@@ -248,7 +256,7 @@ body {
 .uswork-list{
     display: flex ;
     align-items: center;
-    padding: 50px var(--section-ml-mr) var(--section-mt-mb) var(--section-ml-mr);
+    
 
 }
 
@@ -262,19 +270,16 @@ body {
 
 .usteam{
     background: var(--background-color);
+    padding: var(--section-pt-pb) 0 var(--section-pt-pb) 15px;    
 }
-
-.usteam .container {
-    
-    padding: var(--section-mt-mb) var(--section-ml-mr) var(--section-mt-mb) 230px;
 
 }
 
 .usteam-list{
-    display: flex ;
+    display: flex;
     flex-wrap: wrap;
     margin: -30px 0 0 -30px;
-    flex-basis: calc(100% / 4 - 30px);
+    flex-basis: calc(100% / 3 - 30px);
 }
 
 .usteam-list-blok{
@@ -298,7 +303,12 @@ body {
     color: var(--text-color);
 }
 
+.usteam-list-item{
+    padding: var(--section-mr) 0 var(--section-mr) 0 ;
+}
+
 .usteam-title{
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -329,7 +339,7 @@ body {
 }
 
 .footer-list {
-    padding: 60px 0 60px var(--section-ml-mr);
+    padding: 60px 0 60px 0;
 }
 
 .logo-word-bottom{
