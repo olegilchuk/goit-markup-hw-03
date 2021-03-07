@@ -65,7 +65,7 @@ body {
   }
 
 .container{
-    width: 1230px;
+    width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px; 
@@ -204,7 +204,8 @@ body {
 /* _______________description_______________ */
 
 .description{
-    padding: var(--section-pt-pb) 0 var(--section-pt-pb) 0;
+    padding-top : var(--section-pt-pb);
+    padding-bottom: var(--section-pt-pb);
 }
 
 .list-description{
@@ -245,7 +246,7 @@ body {
 /* _______________us work_______________ */
 
 .uswork{
-    padding: 0 0 var(--section-pt-pb) 0;
+    padding-bottom : var(--section-pt-pb);
 }
 
 .uswork-title{
@@ -276,7 +277,8 @@ body {
 
 .usteam{
     background: var(--background-color);
-    padding: var(--section-pt-pb) 0 var(--section-pt-pb) 0px;    
+    padding-top : var(--section-pt-pb);  
+    padding-bottom: var(--section-pt-pb);
 }
 
 .usteam-list{
@@ -344,7 +346,8 @@ body {
 }
 
 .footer {
-    padding: 60px 0 60px 0;
+    padding-top : 60px;
+    padding-bottom: 60px;
 }
 
 .logo-word-bottom{
