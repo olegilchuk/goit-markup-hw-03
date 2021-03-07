@@ -216,7 +216,13 @@ body {
     margin-right: var(--section-mr);
 }
 
+.list-description-title{
+    width: 270px;
+    height: 75px;
+}
+
 .description-title{
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -284,12 +290,13 @@ body {
 .usteam-list-blok{
     margin: var(--section-mr) 0 0 var(--section-mr);
     background: var(--title-color);
-    width: 270px;
-    height: 368px;
+    
+
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc(100% / 4 - 30px);
 }
+
 
 .usteam-header{
     margin-bottom: 50px;
@@ -338,7 +345,7 @@ body {
     background: #2F303A;
 }
 
-.footer-list {
+.footer {
     padding: 60px 0 60px 0;
 }
 
