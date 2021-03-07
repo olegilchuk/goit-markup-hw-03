@@ -281,22 +281,19 @@ body {
 
 .usteam-list{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: -30px 0 0 -30px;
-    
+    margin: -30px 0 0 0;
 }
 
 .usteam-list-blok{
-    margin: var(--section-mr) 0 0 var(--section-mr);
-    background: var(--title-color);
-    
-
+    margin: var(--section-mr) var(--section-mr) 0 0;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    flex-basis: calc(100% / 4 - 40px);
+    flex-basis: calc(100% / 4 - 30px);
 }
 
+.usteam-list-blok:not(:last-child) {
+    margin-right: 30px;
+  }
 
 
 .usteam-header{
@@ -312,7 +309,7 @@ body {
 
 .usteam-list-item{
     padding: var(--section-mr) 0 var(--section-mr) 0 ;
-    width: 270px;
+    background: var(--title-color);
 }
 
 .usteam-title{
