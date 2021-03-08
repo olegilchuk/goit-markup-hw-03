@@ -161,12 +161,16 @@ body {
 
 /* _______________price_______________ */
 
+.section{
+    padding-top : var(--section-pt-pb);
+    padding-bottom: var(--section-pt-pb);  
+}
+
 .section .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top : var(--section-pt-pb);
-    padding-bottom: var(--section-pt-pb);
+
 }
 
 
